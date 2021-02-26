@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.header{
+    padding: 50px;
+    text-align: center;
+    background-color: red;
+}
+
+.header h1{
+    font-weight: lighter;
+    color: black;
+}
+
+/* Página Inicial */
+
+.noticia-top-um{
+    float: left;
+    margin: 50px;
+    width: 400px;
+    background-image: url("https://veja.abril.com.br/wp-content/uploads/2018/06/mundo-criancas-presas-caverna-20180625-001.jpg?quality=70&strip=info&resize=680,453");
+}
+
+.text{
+    padding: 20px;
+    color: white;
+    padding-top: 40%;
+    text-align: justify;
+}
+
+.text a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.noticia-top{
+    float: left;
+    margin: 50px;
+    width: 400px;
+    background-color: gray;
+    height: 450px;
+}
+
+/* Notícia */
+
+.center{
+    max-width: 1000px;
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.center img{
+    margin: 40px 0;
+}
+
+.data{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.body{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.hiperlink{
+    color: rgb(255, 50, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
