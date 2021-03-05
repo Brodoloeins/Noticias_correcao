@@ -9,6 +9,12 @@ html, body{
     height: 100%;
 }
 
+/**/
+
+.clear{
+    clear: both;
+}
+
 .header{
     padding: 50px;
     text-align: center;
@@ -29,6 +35,17 @@ html, body{
     background-image: url("https://veja.abril.com.br/wp-content/uploads/2018/06/mundo-criancas-presas-caverna-20180625-001.jpg?quality=70&strip=info&resize=680,453");
 }
 
+.noticia-top-dois{
+    float: left;
+    margin: 50px;
+    width: 400px;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gEHX5H8-wNT-Z28XMWU8QgHaEK%26pid%3DApi&f=1");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 200%;
+    height: 440px;
+}
+
 .text{
     padding: 20px;
     color: white;
@@ -36,7 +53,20 @@ html, body{
     text-align: justify;
 }
 
+.text-menor{
+    padding: 20px;
+    color: white;
+    padding-top: 65%;
+    text-align: justify;
+}
+
 .text a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.text-menor a{
     text-align: left;
     color: white;
     text-decoration: none;
@@ -81,4 +111,34 @@ html, body{
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
+}
+
+/**/
+
+img{
+    border: 1px solid rgba(0,0,0, 0.2);
+    width: 100%;
+}
+
+.table{
+    border: 1px solid black;
+}
+
+.th{
+    border-bottom: 1px solid black;
+}
+
+.table p{
+    border: 1px solid rgba(0,0,0, 0.3);
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+}
+
+.card{
+    border: 1px solid black;
+}
+
+.card>p:hover{
+    background-color: rgba(0,0,0, 0.2);
 }
